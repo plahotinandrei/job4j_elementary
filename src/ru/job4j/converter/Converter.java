@@ -27,7 +27,7 @@ public class Converter {
         int ruble = Converter.euroToRuble(50);
         System.out.println("50 euro are " + ruble + " rubles.");
 
-        int ruble_1 = Converter.dollarToRuble(150);
-        System.out.println("150 dollars are " + ruble_1 + " rubles.");
+        ruble = Converter.dollarToRuble(150);
+        System.out.println("150 dollars are " + ruble + " rubles.");
     }
 }
