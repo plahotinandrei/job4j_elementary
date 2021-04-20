@@ -5,10 +5,15 @@ public class ArgMethod {
         System.out.println("Hello, " + name);
     }
 
+    public static void myAge(int age) {
+        System.out.println("My age is " + age + " years old");
+    }
+
     public static void main(String[] args) {
         String name = "Andrey Plahotin";
-        int age = 33;
+        int age = 26;
 
         ArgMethod.hello(name);
+        ArgMethod.myAge(age);
     }
 }
