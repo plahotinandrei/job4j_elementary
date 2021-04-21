@@ -46,13 +46,13 @@ public class Converter {
         expected = 3500;
         out = Converter.euroToRuble(in);
         passed = expected == out;
-        System.out.println("50 rubles are 3500. Test result : " + passed);
+        System.out.println("50 euro are 3500. Test result : " + passed);
 
         in = 150;
         expected = 9000;
         out = Converter.dollarToRuble(in);
         passed = expected == out;
-        System.out.println("150 rubles are 9000. Test result : " + passed);
+        System.out.println("150 dollar are 9000. Test result : " + passed);
 
     }
 }
