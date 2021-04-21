@@ -29,5 +29,30 @@ public class Converter {
 
         ruble = Converter.dollarToRuble(150);
         System.out.println("150 dollars are " + ruble + " rubles.");
+
+        int in = 140;
+        int expected = 2;
+        int out = Converter.rubleToEuro(in);
+        boolean passed = expected == out;
+        System.out.println("140 rubles are 2. Test result : " + passed);
+
+        in = 180;
+        expected = 3;
+        out = Converter.rubleToDollar(in);
+        passed = expected == out;
+        System.out.println("180 rubles are 3. Test result : " + passed);
+
+        in = 50;
+        expected = 3500;
+        out = Converter.euroToRuble(in);
+        passed = expected == out;
+        System.out.println("50 rubles are 3500. Test result : " + passed);
+
+        in = 150;
+        expected = 9000;
+        out = Converter.dollarToRuble(in);
+        passed = expected == out;
+        System.out.println("150 rubles are 9000. Test result : " + passed);
+
     }
 }
