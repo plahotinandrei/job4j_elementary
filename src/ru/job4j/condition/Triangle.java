@@ -7,7 +7,7 @@ public class Triangle {
     }
 
     public static void main(String[] args) {
-        boolean isTriangle = exist(2,3,1);
+        boolean isTriangle = exist(2, 3, 1);
 
         System.out.println("is Triangle? " + isTriangle);
     }

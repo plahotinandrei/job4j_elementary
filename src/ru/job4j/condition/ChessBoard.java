@@ -6,7 +6,7 @@ public class ChessBoard {
         boolean condition = Math.abs(x2 - x1) == Math.abs(y2 - y1);
         boolean startInRange =  x1 >= 0 && x1 <= 7 && y1 >= 0 && y1 <= 7;
         boolean finishInRange =  x2 >= 0 && x2 <= 7 && y2 >= 0 && y2 <= 7;
-        if(condition && startInRange && finishInRange) {
+        if (condition && startInRange && finishInRange) {
             rsl = Math.abs(x2 - x1);
             rsl = rsl == 0 ? Math.abs(y2 - y1) : rsl;
         }
