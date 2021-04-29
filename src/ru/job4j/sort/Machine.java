@@ -9,10 +9,10 @@ public class Machine {
         int diff = money - price;
         int size = 0;
 
-        for (int i = 0; i < coins.length; i++) {
-            while (diff - coins[i] >= 0) {
-                rsl[size] = coins[i];
-                diff -= coins[i];
+        for (int coin:coins) {
+            while (diff - coin >= 0) {
+                rsl[size] = coin;
+                diff -= coin;
                 size++;
             }
         }
