@@ -17,7 +17,6 @@ public class Game {
         Game.menu("tanks");
         Game.menu("super mario");
         Game.menu("tetris");
-
         Game.menu("other game");
     }
 }

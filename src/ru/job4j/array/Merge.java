@@ -6,7 +6,6 @@ public class Merge {
         int m = 0;
         int n = 0;
         int index = 0;
-
         for (int i = 0; i < rsl.length; i++) {
             if (m < left.length && (n >= right.length || left[m] < right[n])) {
                 rsl[i] = left[m];
